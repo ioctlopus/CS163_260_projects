@@ -1,0 +1,4 @@
+I created a small test.txt file to see what would happen if a sector with a negative value was encountered. My original datalogger.cpp did
+not contain any bounds checking for sectors with negative values. As a result, it added the negative sectors to the report.
+Adding bounds checking in datalogger.cpp caused the datalogger to discard the sector and its information withoud adding it to the 
+badsectorlist, as a negative sector is clearly useless information.

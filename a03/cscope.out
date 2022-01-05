@@ -1,0 +1,309 @@
+cscope 15 $HOME/school/cs260/a03               0000001567
+	@personnel.cpp
+
+1 
+	~<io¡»am
+>
+
+2 
+	~<f¡»am
+>
+
+3 
+	~<c¡ršg
+>
+
+4 
+	~<c¡dlib
+>
+
+5 
+	~"³rsÚmgr.h
+"
+
+6 
+	~"³rsÚ.h
+"
+
+8 
+usšg
+ 
+Çme¥aû
+ 
+	g¡d
+;
+
+11 
+	$maš
+(
+¬gc
+,** 
+¬gv
+)
+
+13 ià(
+¬gc
+ != 2)
+
+15 
+cout
+ << "U§ge: " << 
+¬gv
+[0] << " <d©afže>" << 
+’dl
+;
+
+16 
+	`ex™
+(0);
+
+19 
+³rsÚmgr
+ 
+³rsÚMgr
+;
+
+21 * 
+d©afže
+ = 
+¬gv
+[1];
+
+22 
+if¡»am
+ 
+	`šfže
+(
+d©afže
+);
+
+24 ià(
+šfže
+.
+	`is_Ý’
+())
+
+26 
+cout
+ << "======ðLßdšg…”sÚÃÈd©¨=======" << 
+’dl
+;
+
+27 
+addCouÁ
+ = 0;
+
+28 
+boÞ
+ 
+dÚe
+ = 
+çl£
+;
+
+29 !
+dÚe
+ )
+
+31 
+id
+[100];
+
+32 
+âame
+[100];
+
+33 
+Êame
+[100];
+
+34 
+çmžyId
+[100];
+
+36 
+šfže
+ >> 
+id
+;
+
+37 
+šfže
+ >> 
+âame
+;
+
+38 
+šfže
+ >> 
+Êame
+;
+
+39 
+šfže
+ >> 
+çmžyId
+;
+
+41 ià(
+	`¡rcmp
+(
+id
+,"=======")==0)
+
+43 
+dÚe
+ = 
+Œue
+;
+
+47 
+³rsÚ
+ 
+	`³r
+(
+id
+,
+âame
+,
+Êame
+,
+çmžyId
+);
+
+48 
+³rsÚMgr
+.
+	`addP”sÚ
+(
+³r
+);
+
+49 
+addCouÁ
+++;
+
+52 
+cout
+ << "Added " << 
+addCouÁ
+ << "…”sÚ tØth³rsÚ mªag”." << 
+’dl
+ <<ƒndl;;
+
+54 
+cout
+ << "======ðEx”cisšg†ookup ===========" << 
+’dl
+;
+
+62 cÚ¡ 
+NUM_PRINTS
+ = 10;
+
+63 cÚ¡ 
+NUM_LOOKUPS
+ = 100;
+
+65 
+cout
+ << "Showšghfœ¡ " << 
+NUM_PRINTS
+ << "„ecÜds." << 
+’dl
+ <<ƒndl;
+
+67 
+lookupCouÁ
+ = 0;
+
+68 !
+šfže
+.
+	`eof
+() )
+
+70 
+id
+[100];
+
+71 
+šfže
+ >> 
+id
+;
+
+72 ià(!
+šfže
+.
+	`eof
+())
+
+74 
+i
+=0;i<
+NUM_LOOKUPS
+;i++)
+
+76 cÚ¡ 
+³rsÚ
+* 
+³rPŒ
+ = 
+³rsÚMgr
+.
+	`fšdP”sÚ
+(
+id
+);
+
+81 ià(
+i
+ =ð0 && 
+lookupCouÁ
+ < 
+NUM_PRINTS
+)
+
+83 
+cout
+ << *
+³rPŒ
+ << 
+’dl
+;
+
+87 
+lookupCouÁ
+++;
+
+89 
+šfže
+.
+	`þo£
+();
+
+96 
+cout
+ << "======ðHashbË st ===========" << 
+’dl
+;
+
+97 
+³rsÚMgr
+.
+	`´štHtSts
+();
+
+100 
+	}
+}
+
+	@
+1
+.
+1
+/usr/include
+1
+14
+personnel.cpp
